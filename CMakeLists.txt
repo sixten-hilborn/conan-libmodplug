@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 2.8.0)
 
 project(libmodplug)
+
+include(../conanbuildinfo.cmake)
+conan_basic_setup()
+
 add_definitions(-DMODPLUG_BUILD)
 
 include (CheckFunctionExists)
