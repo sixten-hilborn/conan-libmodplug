@@ -6,7 +6,7 @@ import shutil
 class LibmodplugConan(ConanFile):
     name = "libmodplug"
     version = "0.8.8.5"
-    description = ""
+    description = "libmodplug plays mod-like music formats"
     folder = "libmodplug-%s" % version
     settings = "os", "arch", "compiler", "build_type"
     options = {
