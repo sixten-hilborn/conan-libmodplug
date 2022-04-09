@@ -1,3 +1,5 @@
+**OBSOLETE**: Use https://github.com/conan-io/conan-center-index/tree/master/recipes/libmodplug instead.
+
 ## Package Status
 
 | Bintray | Appveyor | Travis | 
